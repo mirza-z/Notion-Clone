@@ -54,9 +54,9 @@ export const TrashBox = () =>{
             error: "Failed to delete note."
         });
 
-        if(params.documentID === documentId){
+        // if(params.documentID === documentId){}
             router.push("/documents")
-        }
+        
     };
 
     if(documents === undefined){
